@@ -57,7 +57,7 @@ class Warehouse:
         total = 0
         for p in self.products.values():
             total += p["price"] * p["quantity"]
-        return round(total, 2)   # ✅ tashqarida
+        return round(total, 2)  
 
 
 wh = Warehouse()
